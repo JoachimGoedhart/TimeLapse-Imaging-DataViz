@@ -1,0 +1,11 @@
+KymoGraph:
+134 µm
+x 1270 seconden
+(4 pixels=10 seconden)
+
+
+3.75 pixels/micrometer
+
+--------
+
+At frame 55 nocodazole is added to the sample.
