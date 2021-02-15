@@ -45,16 +45,32 @@ ggplot(data=df, aes(x=Time, y=ratio, group=Sample, color=Sample))+
   geom_point(size=2) +
   scale_color_manual(values=Okabe_Ito) +
   annotate("rect",xmin=25,xmax=175,ymin=-Inf,ymax=Inf,alpha=0.1,fill="black")+
-  annotate("text", x=100, y=6, alpha=1, size = 9, label='histamine') +
+  annotate("text", x=100, y=6, alpha=1, size = 8, label='histamine') +
   theme_light(base_size = 16) +
   labs(x = "Time [s]", y = "Normalized Ratio") +
   labs(title = "Calcium oscillations induced by histamine") +
-  theme(plot.title = element_text(size=26)) +
+  theme(plot.title = element_text(size=24)) +
   theme(panel.grid = element_blank()) +
   # theme(legend.position="none") +
   # facet_wrap(~Sample) +
   coord_cartesian(xlim=c(0,220),ylim=c(1,6)) +
   NULL #Do not remove or uncomment this line
+
+ggsave(
+  'Ratio-plot.png',
+  plot = last_plot(),
+  device = 'png',
+  width=21,
+  height=16,
+  units = 'cm',
+  dpi = 300
+)
+
+
+
+
+
+
 
 
 
