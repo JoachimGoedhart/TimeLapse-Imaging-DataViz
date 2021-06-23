@@ -1,5 +1,4 @@
 # TimeLapse-Imaging-DataViz
  Material for a guide on vizualization of data from time lapse imaging
-
-#### Counter
-[![HitCount](http://hits.dwyl.com/JoachimGoedhart/TimeLapse-Imaging-DataViz.svg)](http://hits.dwyl.com/JoachimGoedhart/TimeLapse-Imaging-DataViz)
+ 
+ Corresponding preprint: https://www.biorxiv.org/content/10.1101/2021.02.24.432684v1.full
